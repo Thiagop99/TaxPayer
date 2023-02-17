@@ -1,6 +1,6 @@
 # TaxPayer
 
-Desafio realizado através da análise de um problema, no qual solicita que seja informado a quantidade de pagadores o programa vai ler, em seguida, através de um loop, irá questionar se é uma pessoa física ou jurídica, caso seja física, será questionado o valor gasto com saúde, caso seja jurídica, será questionado a quantidade de funcionários da empresa. Essas informações são importantes pois cada cálculo de imposto difere entre esses dois tipos diferentes.
+Desafio realizado através da análise de um problema, no qual solicita que seja informada a quantidade de pagadores que o programa irá ler, em seguida, através de um loop, perguntará se é uma pessoa física ou jurídica, caso seja física, será questionado o valor gasto com saúde, caso seja jurídica, será questionada a quantidade de funcionários da empresa. Essas informações são importantes pois cada cálculo de imposto difere entre esses dois tipos diferentes.
 
 Foi criada uma classe abstrata TaxPayer, cujos atributos são: nome e renda anual, através dessa classe genérica, foram criadas duas subclasses, uma que referencia as pessoas físicas, contendo como atributo o gasto com saúde, fazendo com que o método abata o pagamento de impostos nesse gasto em 50%. A outra subclasse referencia as pessoas jurídicas, com o atributo "numberOfEmloyees". Lembrando que o método de cálculo da taxa de imposto possui condicionais em cada caso, e em ambos os casos há diferenciação na taxa cobrada conforme o valor bruto anual.
 
